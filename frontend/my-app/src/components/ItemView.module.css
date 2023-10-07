@@ -1,0 +1,433 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icon,
+  .link {
+    position: relative;
+  }
+  .navLink {
+    border-radius: var(--br-3xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+    gap: var(--gap-5xs);
+  }
+  .imageIcon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .productImage {
+    position: relative;
+    width: 33.66px;
+    height: 42px;
+  }
+  .image01,
+  .imageGallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .image01 {
+    border-radius: var(--br-smi);
+    background-color: var(--font-white);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+  }
+  .imageGallery {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .productImage3 {
+    position: relative;
+    width: 242px;
+    height: 302px;
+  }
+  .imageArea,
+  .mainImage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+  }
+  .mainImage {
+    border-radius: var(--br-smi);
+    background-color: var(--font-white);
+    overflow: hidden;
+  }
+  .imageArea {
+    gap: var(--gap-base);
+  }
+  .series5Se {
+    position: relative;
+    font-size: var(--subtitle-small-regular-normal-size);
+    font-weight: 500;
+    color: var(--font-placeholder);
+  }
+  .header,
+  .rating {
+    display: flex;
+    gap: var(--gap-5xs);
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+    font-size: var(--title-normal-bold-normal-size);
+  }
+  .rating {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-base) 0 0;
+  }
+  .div {
+    position: relative;
+    letter-spacing: -0.02em;
+  }
+  .special {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-5xs);
+    gap: var(--gap-5xs);
+    color: var(--font-accent);
+  }
+  .div1 {
+    position: relative;
+    font-size: var(--subtitle-small-regular-normal-size);
+    font-weight: 500;
+  }
+  .loremIpsumDolor {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .shortDescription {
+    align-self: stretch;
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .button,
+  .cta {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    border-radius: var(--br-sm);
+    background-color: var(--ui-dark);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-5xs) var(--padding-5xl);
+    gap: var(--gap-5xs);
+  }
+  .cta {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: var(--padding-5xs);
+    color: var(--font-white);
+  }
+  .textContent,
+  .topArea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .textContent {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xs);
+  }
+  .topArea {
+    width: 905px;
+    flex-direction: row;
+    gap: var(--gap-5xl);
+  }
+  .bottomAreaChild {
+    position: relative;
+    border-top: 3px solid var(--font-placeholder);
+    box-sizing: border-box;
+    width: 861px;
+    height: 3px;
+  }
+  .orciVelRidiculus {
+    margin: 0;
+  }
+  .loremIpsumDolorContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--body-normal-medium-normal-size);
+    letter-spacing: -0.02em;
+    color: var(--font-tertiary);
+    display: inline-block;
+    height: 383px;
+    flex-shrink: 0;
+  }
+  .description {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-5xs);
+    gap: var(--gap-5xs);
+  }
+  .bottomArea {
+    align-self: stretch;
+    align-items: center;
+    padding: var(--padding-5xs);
+    gap: var(--gap-base);
+    font-size: var(--subtitle-small-regular-normal-size);
+  }
+  .bottomArea,
+  .contentArea,
+  .contentFrame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .contentArea {
+    align-self: stretch;
+    flex: 1;
+    align-items: flex-start;
+    padding: var(--padding-29xl) var(--padding-5xl);
+    gap: var(--gap-base);
+  }
+  .contentFrame {
+    position: absolute;
+    top: 0;
+    left: 122px;
+    width: 953px;
+    height: 1024px;
+    overflow-y: auto;
+    align-items: center;
+  }
+  .itemViewChild {
+    position: absolute;
+    top: 49px;
+    left: 1093px;
+    border-right: 4px solid var(--font-placeholder);
+    box-sizing: border-box;
+    width: 4px;
+    height: 925.6px;
+  }
+  .bag {
+    position: relative;
+    font-weight: 500;
+  }
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+  }
+  .imageIcon4 {
+    position: absolute;
+    height: 131%;
+    width: 100%;
+    top: -15.5%;
+    right: 0;
+    bottom: -15.5%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .productImage4 {
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  .bagItem {
+    border-radius: var(--br-xs);
+    background-color: var(--font-white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+  }
+  .row {
+    gap: var(--gap-base);
+  }
+  .row,
+  .row1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .bagItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-5xs);
+    gap: var(--gap-base);
+  }
+  .bagArea,
+  .button2,
+  .cta1 {
+    display: flex;
+    align-items: center;
+  }
+  .button2 {
+    border-radius: var(--br-sm);
+    background-color: var(--ui-dark);
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-5xl);
+    gap: var(--gap-5xs);
+    cursor: pointer;
+  }
+  .bagArea,
+  .cta1 {
+    flex-direction: column;
+  }
+  .cta1 {
+    align-self: stretch;
+    justify-content: center;
+    padding: var(--padding-base);
+    font-size: var(--body-normal-medium-normal-size);
+    color: var(--font-white);
+  }
+  .bagArea {
+    position: absolute;
+    top: 0;
+    left: 1095px;
+    width: 345px;
+    height: 1024px;
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: var(--padding-53xl) var(--padding-5xs) var(--padding-5xs);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    font-size: var(--subtitle-normal-medium-normal-size);
+  }
+  .logoChild {
+    position: relative;
+    width: 16px;
+    height: 20.71px;
+  }
+  .logo {
+    border-radius: var(--br-9xs);
+    background-color: var(--font-white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+    cursor: pointer;
+  }
+  .navLinkstopChild {
+    position: relative;
+    border-radius: var(--br-6xs);
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    display: none;
+  }
+  .icon3,
+  .link1 {
+    position: relative;
+  }
+  .icon3 {
+    border-radius: var(--br-31xl);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .link1 {
+    display: none;
+  }
+  .navLink1 {
+    background-color: var(--ui-dark);
+  }
+  .navLink1,
+  .navLink2 {
+    border-radius: var(--br-3xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+    gap: var(--gap-5xs);
+    cursor: pointer;
+  }
+  .navLinkstop {
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-13xl);
+  }
+  .navLink3,
+  .navLinkstop,
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-5xs);
+  }
+  .navLink3 {
+    border-radius: var(--br-3xs);
+    background-color: var(--ui-danger);
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .navbar {
+    position: absolute;
+    height: 96.88%;
+    top: 1.56%;
+    bottom: 1.56%;
+    left: 16px;
+    border-radius: var(--br-5xs);
+    background-color: var(--font-white);
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: var(--font-white);
+  }
+  .itemView {
+    position: relative;
+    border-radius: var(--br-base);
+    background-color: var(--color-whitesmoke);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--body-normal-medium-normal-size);
+    color: var(--ui-dark);
+    font-family: var(--body-normal-medium-normal);
+  }
